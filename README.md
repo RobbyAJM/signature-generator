@@ -1,2 +1,2 @@
-# signature-generator
-A Player signature generator with Native PHP.
+# Simple Player Signature Generator with Native PHP
+<p align="center"><img src="https://i.ibb.co/hVWFfRg/v1-sample.jpg" width="400"></p>
