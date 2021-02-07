@@ -2,9 +2,9 @@
     header('Content-type: image/jpeg');
     $ini = parse_ini_file('db.ini');
 
-    $jpg_image = imagecreatefromjpeg('sig_template.jpg');
+    $jpg_image = imagecreatefromjpeg(dirname(__FILE__).'\templates\sig_template.jpg');
     $white = imagecolorallocate($jpg_image, 255, 255, 255);
-    $font_path = dirname(__FILE__). "/bebas_neue.ttf";
+    $font_path = dirname(__FILE__). '\fonts\bebas_neue.ttf';
 
     function playerStuffs($ini, $type)
     {
